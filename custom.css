@@ -1,0 +1,88 @@
+/* Dracula theme */
+:root {
+  --gradient-dir1: to top;
+  --gradient-dir2: to right;
+  --gradient-dir3: to left;
+  --gradient-dir4: to left;
+  --gradient-dir5: to top left;
+  --gradient-dir6: to left top;
+  --size: 5px;
+  --border-size: 2.5px;
+  --gradient-primary: #fcb564, #ff65f2, #d66efd;
+  --gradient-secondary: linear-gradient(245deg, #fcb564, #ff65f2);
+}
+body > div[class*='Dracula-'] :where(.mtk5, .mtk9, .mtk10, .mtk15, .mtk16, .mtk17, .mtk26) {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body > div[class*='Dracula-'] :where(.mtk10, .mtk15) {
+  background-image: linear-gradient(to bottom, #fc806c, #ff1bd1);
+}
+body > div[class*='Dracula-'] :where(.mtk5, .mtk26) {
+  background-image: linear-gradient(to right top, #4dd78a, #20e3b2);
+}
+body > div[class*='Dracula-'] :where(.mtk26) {
+  font-style: italic;
+}
+body > div[class*='Dracula-'] :where(.mtk9, .mtk17) {
+  background-image: linear-gradient(to bottom, #00fdff, #2979ff);
+}
+body > div[class*='Dracula-'] :where(.mtk16) {
+  background-image: linear-gradient(to bottom, #9a86fd, #6a5af9);
+}
+body > div[class*='Dracula-'] :where(.mtk3) {
+  color: #92b4d5;
+}
+
+body > div[class*='Dracula-'] :where(.mtk18, .mtk7) {
+  color: #cbdaff;
+}
+
+body > div[class*='Dracula-'] :where(.mtk13) {
+  color: white;
+}
+.tab-border-top-container {
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 1px;
+  width: 100% !important;
+  height: calc(100% - 3px) !important;
+  background-color: transparent !important;
+}
+.editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
+  background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
+  width: 3px !important;
+}
+.cursors-layer .cursor {
+  background-image: linear-gradient(245deg, #fcb564, #ff65f2, #d66efd) !important;
+}
+.tab-border-top-container:before {
+  content: '';
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: spinner 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  background: conic-gradient(from 0deg at 50% 51.35%, rgba(185, 215, 243, 0) 0deg, rgba(185, 215, 243, 0) 289.4deg, #ffb86c 318.05deg, #ff65f2 1turn),
+    conic-gradient(from 180deg at 50% 51.35%, rgba(185, 215, 243, 0) 0deg, rgba(185, 215, 243, 0) 287.46deg, #20e3b2 325.02deg, #00aefd 1turn);
+}
+@keyframes spinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+}
+.cursors-layer .cursor {
+  background-image: linear-gradient(
+    245deg,
+    #fcb564,
+    #ff65f2,
+    #d66efd
+  ) !important;
+}
