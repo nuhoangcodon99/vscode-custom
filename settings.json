@@ -126,7 +126,21 @@
     "json",
     "jsonc",
     "yaml",
-    "toml"
+    "toml",
+    "php",
+    "css",
+    "python",
+    "java",
+    "rust",
+    "ruby",
+    "swift",
+    "objective-c",
+    "perl",
+    "lua",
+    "dart",
+    "javascript.jsx",
+    "typescript.tsx",
+    "vue-html",
   ],
 
   "github.copilot.enable": {
@@ -135,7 +149,7 @@
     "plaintext": false
   },
   "cSpell.allowCompoundWords": true,
-  "cSpell.language": "en,en-US,vi",
+  "cSpell.language": "en",
   "css.lint.hexColorLength": "ignore",
   "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
   "githubPullRequests.fileListLayout": "tree",
@@ -493,4 +507,5 @@
   ],
   "window.newWindowDimensions": "maximized",
   "editor.semanticHighlighting.enabled": true,
+  "java.jdt.ls.java.home": "c:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\jdk-17",
 }
