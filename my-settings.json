@@ -141,6 +141,9 @@
     "javascript.jsx",
     "typescript.tsx",
     "vue-html",
+    "kotlin",
+    "perl",
+    "r",
   ],
 
   "github.copilot.enable": {
@@ -244,6 +247,8 @@
     "*.pug": "$(capture).pug",
     "*.py": "$(capture)_test.py",
     "*.rb": "$(capture)_test.rb",
+    "*.php": "$(capture)_test.php",
+    "*.swift": "$(capture)_test.swift",
     "*.scss": "$(capture).scss.map",
     "*.ts": "$(capture).ts.map",
     "*.tsx": "$(capture).tsx.map",
@@ -507,5 +512,4 @@
   ],
   "window.newWindowDimensions": "maximized",
   "editor.semanticHighlighting.enabled": true,
-  "java.jdt.ls.java.home": "c:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\jdk-17",
 }
