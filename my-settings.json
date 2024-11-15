@@ -326,11 +326,11 @@
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-1.8",
-      "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
+      "path": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
     },
     {
       "name": "JavaSE-11",
-      "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
+      "path": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
     },
     {
       "name": "JavaSE-17",
@@ -338,11 +338,11 @@
     },
     {
       "name": "JavaSE-21",
-      "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
+      "path": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
     },
     {
-      "name": "JavaSE-22",
-      "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest",
+      "name": "JavaSE-23",
+      "path": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest",
       "default": true
     }
   ],
@@ -350,16 +350,16 @@
     "JavaSE-1.8 LTS": {
       "overrideName": true,
       "env": {
-        "PATH": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8\\bin;${env:PATH}",
-        "JAVA_HOME": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
+        "PATH": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8\\bin;${env:PATH}",
+        "JAVA_HOME": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
       },
       "path": "cmd"
     },
     "JavaSE-11 LTS": {
       "overrideName": true,
       "env": {
-        "PATH": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11\\bin;${env:PATH}",
-        "JAVA_HOME": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
+        "PATH": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11\\bin;${env:PATH}",
+        "JAVA_HOME": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
       },
       "path": "cmd"
     },
@@ -374,9 +374,9 @@
     "JavaSE-21 LTS": {
       "overrideName": true,
       "env": {
-        "PATH": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}",
+        "PATH": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}",
         "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
-        "JAVA_HOME": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
+        "JAVA_HOME": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
       },
       "path": "cmd",
       "args": [
@@ -385,12 +385,12 @@
         "65001"
       ]
     },
-    "JavaSE-22": {
+    "JavaSE-23": {
       "overrideName": true,
       "env": {
-        "PATH": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
+        "PATH": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
         "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
-        "JAVA_HOME": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
+        "JAVA_HOME": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
       },
       "path": "cmd",
       "args": [
@@ -410,19 +410,19 @@
     ]
   },
   "terminal.integrated.env.windows": {
-    "JAVA_HOME": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21",
-    "PATH": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}"
+    "JAVA_HOME": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21",
+    "PATH": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}"
   },
   "maven.terminal.customEnv": [
     {
       "environmentVariable": "JAVA_HOME",
-      "value": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
+      "value": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
     }
   ],
-  "java.import.gradle.java.home": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21",
-  "maven.executable.path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin\\mvn",
-  "java.import.gradle.home": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest",
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "java.import.gradle.java.home": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest",
+  "maven.executable.path": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin\\mvn",
+  "java.import.gradle.home": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest",
+  "terminal.integrated.defaultProfile.windows": "JavaSE-23",
   "cSpell.autoFormatConfigFile": true,
   "[jsonc]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
@@ -435,7 +435,7 @@
   "editor.lineHeight": 30,
   "editor.letterSpacing": 0.5,
   "terminal.integrated.letterSpacing": 0.5,
-      "vscode_custom_css.imports": [ "file:///C:/Users/Administrator/Documents/extension/vscode/custom.css"
+      "vscode_custom_css.imports": [ "file:///C:/Users/Administrator/Documents/extension/vscode/custom.cccsss"
 
 
       ],
@@ -512,4 +512,8 @@
   ],
   "window.newWindowDimensions": "maximized",
   "editor.semanticHighlighting.enabled": true,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.maxConcurrentBuilds": 4,
+  "snyk.folderConfigs": null,
+  "snyk.yesWelcomeNotification": false,
 }
