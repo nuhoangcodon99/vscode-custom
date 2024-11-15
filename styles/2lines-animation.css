@@ -8,7 +8,9 @@
   width: 100% !important;
   height: calc(100% - 3px) !important;
   background-color: transparent !important;
+  overflow: hidden; /* Ngăn ngừa tràn nội dung */
 }
+
 .tab-border-top-container:before {
   content: "";
   width: 500px;
@@ -32,7 +34,10 @@
       #20e3b2 325.02deg,
       #00aefd 1turn
     );
+  opacity: 0.9; /* Điều chỉnh độ trong suốt để hiệu ứng tinh tế hơn */
+  z-index: 10; /* Đảm bảo trước các phần tử khác */
 }
+
 @keyframes spinner {
   100% {
     transform: translate(-50%, -50%) rotate(1turn);
