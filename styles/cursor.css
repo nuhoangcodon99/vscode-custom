@@ -5,4 +5,8 @@
     #ff65f2,
     #d66efd
   ) !important;
+  transition: background-image 0.3s ease, transform 0.1s ease; /* Hiệu ứng mượt khi chuyển đổi */
+  box-shadow: 0 0 5px #ff65f2, 0 0 10px rgba(255, 101, 242, 0.5); /* Bóng phát sáng nhẹ */
+  width: 2px !important; /* Đảm bảo con trỏ mảnh và sắc nét */
+  border-radius: 2px; /* Làm mịn cạnh của con trỏ */
 }
