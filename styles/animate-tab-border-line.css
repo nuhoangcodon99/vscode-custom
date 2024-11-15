@@ -11,16 +11,17 @@
       rgb(255, 71, 149) 71.37%,
       rgb(255, 204, 71) 92.98%
     ) !important;
-  animation: animate 3.5s linear infinite forwards !important;
+  animation: animate 3.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite forwards !important; /* Thay đổi hiệu ứng mượt */
+  border-radius: 1px; /* Làm mịn cạnh viền */
+  overflow: hidden; /* Ẩn phần viền ngoài */
+  box-shadow: 0 1px 5px rgba(255, 71, 149, 0.3); /* Bóng phát sáng nhẹ */
 }
-.tabs-container > .tab {
-  overflow: hidden !important;
-}
+
 @keyframes animate {
   from {
-    transform: translateX(-300px) translateZ(0px);
+    transform: translateX(-100px) translateZ(0px); /* Điều chỉnh tốc độ dịch chuyển */
   }
   to {
-    transform: translateX(300px) translateZ(0px);
+    transform: translateX(100px) translateZ(0px);
   }
 }
