@@ -1,4 +1,3 @@
-/* Dracula theme */
 :root {
   --gradient-dir1: to top;
   --gradient-dir2: to right;
@@ -18,6 +17,7 @@ body > div[class*='Dracula-'] :where(.mtk5, .mtk9, .mtk10, .mtk15, .mtk16, .mtk1
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: background-image 0.3s ease-in-out; /* Hiệu ứng chuyển đổi màu */
 }
 
 /* Gradient for specific classes */
@@ -65,17 +65,27 @@ body > div[class*='Dracula-'] :where(.mtk13) {
   width: 100% !important;
   height: calc(100% - 3px) !important;
   background-color: transparent !important;
+  transition: all 0.3s ease-in-out; /* Hiệu ứng mượt mà */
+  border-radius: inherit;
 }
 
 /* Scrollbar styling */
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
   background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
   width: 3px !important;
+  border-radius: 2px; /* Làm mịn góc thanh trượt */
+  transition: width 0.3s ease, background-image 0.3s ease; /* Hiệu ứng chuyển đổi */
+}
+
+.editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider:hover {
+  width: 4px !important; /* Tăng chiều rộng khi hover */
+  background-image: linear-gradient(to bottom, #ff6bcb, #ffb86c); /* Đảo gradient khi hover */
 }
 
 /* Cursor styling */
 .cursors-layer .cursor {
   background-image: linear-gradient(245deg, #fcb564, #ff65f2, #d66efd) !important;
+  box-shadow: 0 0 8px rgba(255, 101, 242, 0.7); /* Thêm hiệu ứng bóng cho con trỏ */
 }
 
 /* Spinner animation for tab border */
@@ -90,6 +100,8 @@ body > div[class*='Dracula-'] :where(.mtk13) {
   animation: spinner 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
   background: conic-gradient(from 0deg at 50% 51.35%, rgba(185, 215, 243, 0) 0deg, rgba(185, 215, 243, 0) 289.4deg, #ffb86c 318.05deg, #ff65f2 1turn),
     conic-gradient(from 180deg at 50% 51.35%, rgba(185, 215, 243, 0) 0deg, rgba(185, 215, 243, 0) 287.46deg, #20e3b2 325.02deg, #00aefd 1turn);
+  box-shadow: 0 0 15px rgba(255, 101, 242, 0.4); /* Tạo bóng sáng nhẹ */
+  border-radius: inherit;
 }
 
 /* Spinner keyframe animation */
@@ -97,4 +109,4 @@ body > div[class*='Dracula-'] :where(.mtk13) {
   100% {
     transform: translate(-50%, -50%) rotate(1turn);
   }
-}
+    }
