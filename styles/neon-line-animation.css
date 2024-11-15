@@ -11,23 +11,29 @@
   inherits: false;
   initial-value: 0deg;
 }
+
+/* Active tab styling */
 .tab.active {
   border-radius: 20px !important;
-  box-shadow: inset 0 1px 1px 0 rgba(199, 211, 234, 0.12),
+  box-shadow: 
+    inset 0 1px 1px 0 rgba(199, 211, 234, 0.12),
     inset 0 24px 48px 0 rgba(199, 211, 234, 0.05),
     0 24px 32px 0 rgba(6, 6, 14, 0.7);
+  transition: box-shadow 0.3s ease, border-radius 0.3s ease; /* Mượt mà hơn */
 }
+
+/* Tab border top container */
 .tab-border-top-container {
-  animation: spinner 6s var(--easing) infinite,
-    opacityz 3s var(--easing) infinite;
-  filter: drop-shadow(0 0 10px #adbbff);
+  animation: spinner 6s var(--easing) infinite, opacityz 3s var(--easing) infinite;
+  filter: drop-shadow(0 0 10px var(--line-color));
   width: 100% !important;
   height: 100% !important;
   background-color: transparent !important;
-  filter: drop-shadow(0 0 10px var(--line-color));
   border-radius: inherit;
+  position: relative; /* Đảm bảo các phần tử con bên trong được căn chỉnh đúng */
 }
 
+/* Animated border effect */
 .tab-border-top-container:before {
   content: "";
   position: absolute;
@@ -46,12 +52,14 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   animation: inherit;
+  transition: background 0.3s ease; /* Hiệu ứng mượt khi đổi background */
 }
+
+/* Opacity animation for glowing effect */
 @keyframes opacityz {
   0% {
     opacity: 0.75;
   }
-
   50% {
     opacity: 1;
   }
@@ -59,6 +67,8 @@
     opacity: 0.75;
   }
 }
+
+/* Spinner rotation animation */
 @keyframes spinner {
   100% {
     --angle: 360deg;
