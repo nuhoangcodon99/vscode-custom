@@ -1,6 +1,8 @@
 .tabs-container > .tab {
   border-right: 0 !important;
+  transition: border-color 0.3s ease-in-out;
 }
+
 .tabs-and-actions-container {
   padding: 4px !important;
 }
@@ -8,6 +10,7 @@
 .tabs-container {
   gap: 8px !important;
 }
+
 .tabs-container > .tab.active.tab-border-top > .tab-border-top-container {
   --general-gradient-secondary: #fcb564, #ff65f2, #ff69cf;
   height: 0.5px !important;
@@ -19,11 +22,21 @@
   left: 50% !important;
   transform: translate3d(-50%, 0%, 0) !important;
   top: -1px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Thêm bóng nhẹ để làm nổi bật */
 }
+
 .tabs-container > .tab {
   border-radius: 100px;
   border-color: rgba(255, 255, 255, 0.12) rgb(25, 26, 33)
     rgba(255, 255, 255, 0.12) rgba(255, 255, 255, 0.12);
   border-style: solid;
   border-width: 1px 0 0 0;
+  padding: 8px 16px; /* Thêm khoảng cách giữa nội dung và viền */
+  background-color: transparent;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.tabs-container > .tab:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Tạo hiệu ứng khi hover */
+  transform: translateY(-2px); /* Đẩy tab lên khi hover */
 }
