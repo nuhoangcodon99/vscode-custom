@@ -1,6 +1,11 @@
 :root {
   --size: 5px;
+  --gradient-1: linear-gradient(-45deg, #4dd78a, #20e3b2);
+  --gradient-2: linear-gradient(-45deg, #6a5af9, #d66efd);
+  --gradient-3: linear-gradient(-45deg, #fc6c8f, #ffb86c);
+  --gradient-4: linear-gradient(-45deg, #098dff, #2cccff);
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -14,7 +19,9 @@
   top: 0;
   left: 0;
   background-color: transparent;
+  position: relative;
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -38,6 +45,7 @@
   border: 2px solid;
   border-image-slice: 1;
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -50,8 +58,9 @@
   left: 0;
   border-right: 0;
   border-bottom: 0;
-  border-image-source: linear-gradient(-45deg, #4dd78a, #20e3b2);
+  border-image-source: var(--gradient-1);
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -64,8 +73,9 @@
   bottom: 0;
   border-top: 0;
   border-left: 0;
-  border-image-source: linear-gradient(-45deg, #6a5af9, #d66efd);
+  border-image-source: var(--gradient-2);
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -87,6 +97,7 @@
   border: 2px solid;
   border-image-slice: 1;
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -98,8 +109,9 @@
   bottom: 0;
   border-top: 0;
   border-right: 0;
-  border-image-source: linear-gradient(-45deg, #fc6c8f, #ffb86c);
+  border-image-source: var(--gradient-3);
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -111,5 +123,5 @@
   right: 0;
   border-left: 0;
   border-bottom: 0;
-  border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
+  border-image-source: var(--gradient-4);
 }
