@@ -1,4 +1,4 @@
-/* Dracula Theme Enhancements */
+/* Dracula theme */
 :root {
   --gradient-dir1: to top;
   --gradient-dir2: to right;
@@ -12,7 +12,7 @@
   --gradient-secondary: linear-gradient(245deg, #fcb564, #ff65f2);
 }
 
-/* Transparent Text with Gradient */
+/* Apply gradients to specific text classes */
 body > div[class*='Dracula-'] :where(.mtk5, .mtk9, .mtk10, .mtk15, .mtk16, .mtk17, .mtk26) {
   color: transparent;
   -webkit-background-clip: text;
@@ -20,7 +20,7 @@ body > div[class*='Dracula-'] :where(.mtk5, .mtk9, .mtk10, .mtk15, .mtk16, .mtk1
   -webkit-text-fill-color: transparent;
 }
 
-/* Gradient Settings for Specific Elements */
+/* Gradient for specific classes */
 body > div[class*='Dracula-'] :where(.mtk10, .mtk15) {
   background-image: linear-gradient(to bottom, #fc806c, #ff1bd1);
 }
@@ -41,7 +41,7 @@ body > div[class*='Dracula-'] :where(.mtk16) {
   background-image: linear-gradient(to bottom, #9a86fd, #6a5af9);
 }
 
-/* Text Colors for Different Elements */
+/* Color specific text classes */
 body > div[class*='Dracula-'] :where(.mtk3) {
   color: #92b4d5;
 }
@@ -54,7 +54,7 @@ body > div[class*='Dracula-'] :where(.mtk13) {
   color: white;
 }
 
-/* Tab Border and Scrollbar Styling */
+/* Tab border styling */
 .tab-border-top-container {
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -67,17 +67,18 @@ body > div[class*='Dracula-'] :where(.mtk13) {
   background-color: transparent !important;
 }
 
+/* Scrollbar styling */
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
   background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
   width: 3px !important;
 }
 
-/* Cursor Styling */
+/* Cursor styling */
 .cursors-layer .cursor {
   background-image: linear-gradient(245deg, #fcb564, #ff65f2, #d66efd) !important;
 }
 
-/* Rotating Gradient Animation */
+/* Spinner animation for tab border */
 .tab-border-top-container:before {
   content: '';
   width: 500px;
@@ -91,8 +92,9 @@ body > div[class*='Dracula-'] :where(.mtk13) {
     conic-gradient(from 180deg at 50% 51.35%, rgba(185, 215, 243, 0) 0deg, rgba(185, 215, 243, 0) 287.46deg, #20e3b2 325.02deg, #00aefd 1turn);
 }
 
+/* Spinner keyframe animation */
 @keyframes spinner {
   100% {
     transform: translate(-50%, -50%) rotate(1turn);
   }
-  }
+}
