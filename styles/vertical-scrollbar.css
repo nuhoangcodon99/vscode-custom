@@ -1,4 +1,12 @@
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
   background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
   width: 3px !important;
+  border-radius: 3px; /* Làm mịn góc thanh trượt */
+  transition: background-image 0.3s ease, width 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider:hover {
+  background-image: linear-gradient(to bottom, #ff6bcb, #ffb86c); /* Đổi hướng gradient khi hover */
+  width: 4px !important; /* Mở rộng chiều rộng khi hover */
+  box-shadow: 0 0 4px rgba(255, 107, 203, 0.8); /* Thêm bóng mờ để làm nổi bật */
 }
