@@ -11,9 +11,12 @@
     #c850c0,
     #4158d0
   ) !important;
-  animation: gradient 5s ease alternate infinite !important;
+  animation: gradient 5s ease-in-out alternate infinite !important; /* Đã thay đổi easing để mượt mà hơn */
   height: 3px !important;
+  border-radius: 2px; /* Làm mịn cạnh viền */
+  box-shadow: 0 2px 4px rgba(255, 71, 149, 0.5); /* Bóng phát sáng nhẹ cho hiệu ứng nổi bật */
 }
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
