@@ -422,7 +422,7 @@
     "java.import.gradle.java.home": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest",
     "maven.executable.path": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin\\mvn",
     "java.import.gradle.home": "C:\\Users\\Ngoccoder\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest",
-    "terminal.integrated.defaultProfile.windows": "JavaSE-23",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "cSpell.autoFormatConfigFile": true,
     "[jsonc]": {
       "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
