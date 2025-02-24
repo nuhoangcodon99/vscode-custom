@@ -514,7 +514,7 @@
     "editor.semanticHighlighting.enabled": true,
     "java.compile.nullAnalysis.mode": "automatic",
     "java.maxConcurrentBuilds": 4,
-    "snyk.folderConfigs": null,
+    "snyk.folderConfigs": []
     "snyk.yesWelcomeNotification": false,
     "code-runner.runInTerminal": true
   }
